@@ -1,4 +1,4 @@
-#!/bin/bash -xe
+#!/usr/bin/env bash
 FROM python:3.6
 COPY . /app
 WORKDIR /app
